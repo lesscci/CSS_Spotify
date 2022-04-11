@@ -1,20 +1,80 @@
-/*ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #fff;
-    
-    li{
-        float: right;
+.spotify-logo{
+  width: 200px;
+  margin: 10px;
+  display: block;
+}
 
-         a {
-            display: block;
-            text-align: center;
-            padding: 10px;
-            text-decoration: none;
-        }
-    }
+.navbar-logo{
+  display: inline-block;
 
-}*/
-/*# sourceMappingURL=style.css.map */
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #fff;
+  justify-content: center;
+
+}
+
+li{
+  float: right;
+}
+
+a {
+  display: block;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+}
+
+article{
+  display: flex;
+}
+.one{
+  flex-direction: column;
+}
+.second{
+  flex-direction: column;
+}
+.third{
+  flex-direction: column;
+}
+
+.music-icon{
+  width: 150px;
+  height: 150px;
+}
+
+.high-icon{
+  width: 150px;
+  height: 150px;
+}
+.decives-icon{
+  width: 150px;
+  height: 150px;
+}
+.conten-img{
+  height: 100vh;
+}
+.third__page{
+background-color: green;
+}
+.img-background{
+  width: 100vw;
+  height: 100vh;
+
+}
+
+.spotify-icon-white{
+  width: 100px;
+  height: 100px;
+}
+
+.spotify-app{
+  width: 300px;
+  height: 500px;
+  float: right;
+}
